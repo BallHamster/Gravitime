@@ -19,3 +19,5 @@ I really enjoy both magnets, and pendulums soo...
 ### Crucial information:
 - You need to drive the servos with a microcontroller, that is not included in the plans.
 - I will make the program for it, when the parts arrive.
+
+*Stl folder only contains files that need to be 3d printed. (Not the servos, bearings)
