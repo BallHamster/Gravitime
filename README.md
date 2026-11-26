@@ -49,3 +49,6 @@ Simplified wiring guide.
 - Clock needs to be set to the correct time when starting, due to the fact that endless servos do not have an end position sensor.
 - Software might need tweaks, guided in the software file.
 
+## Onshape link
+https://cad.onshape.com/documents/b683d5f55b404201be346fde/w/f1573c88cc16927f3c916434/e/e0e74863f766d278000a5b16?renderMode=0&uiState=6b087316b378dda2f0abfcb9
+
