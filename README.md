@@ -45,7 +45,7 @@ I've chosen an arduino r4 uno to power theese servos, as they can be wired direc
 <img src="images/wiring.png" alt="wiring/schematic" width="600">
 Simplified wiring guide.
 
-Information:
+### Information:
 - Clock needs to be set to the correct time when starting, due to the fact that endless servos do not have an end position sensor.
 - Software might need tweaks, guided in the software file.
 
