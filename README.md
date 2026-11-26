@@ -17,8 +17,6 @@ Gravitime uses a hidden mechanism under the watchface, that drags two magnets re
 I really enjoy both magnets, and pendulums soo...
 
 ### Crucial information:
-- You need to drive the servos with a microcontroller, that is not included in the plans.
-- I will make the program for it, when the parts arrive.
 - I used the following spline model to make "gear 20 teeth": "https://cults3d.com/en/3d-model/various/micro-servo-sg90-attachment-gear"
 
 *Stl folder only contains files that need to be 3d printed. (Not the servos, bearings)
@@ -35,4 +33,12 @@ I really enjoy both magnets, and pendulums soo...
 - Assemble the top part also according to Assembly.step
 - Cut two strings and glue it into the metal balls, just so it barely doesn't reach the surface of the clock
 - tie the strings with the balls to the top rotating assembly
+
+### Wiring and driving the servos
+I've chosen an arduino r4 uno to power theese servos, as they can be wired directly to the arduinos pins.
+- Wire the servos red and black to the arduino r4 uno's 5v (red) and gnd (gnd) pins.
+- Wire the minute hand servo's data line (yellow) to arduino pin 10
+- Wire the hour hand servo's data line (yellow) to arduino pin 11
+- **Power the arduino using usb-c (at least 10W)**
+- Upload the code in "software" to the arduino.
 
